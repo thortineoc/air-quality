@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">  
+  <mat-toolbar-row>
+    <a mat-button routerLink="/information" routerLinkActive="active" class="toolbar-item">
+      <span>Jakość powietrza</span> 
+      <mat-icon aria-hidden="false" aria-label="Cloud icon" fontIcon="cloud"></mat-icon>
+    </a>
+    <span class="menu-spacer"></span>
+    <a mat-button routerLink="/charts" routerLinkActive="active" class="toolbar-item">Wykresy</a>
+    <a mat-button routerLink="/map" routerLinkActive="active" class="toolbar-item">Mapa</a>
+    <a mat-button routerLink="/statistics" routerLinkActive="active" class="toolbar-item">Statystyki</a>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

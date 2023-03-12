@@ -1,0 +1,16 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5%;
+
+    &__header {
+        font-size: 3.5rem;
+        padding-top: 15px;
+    }
+
+    &__subheader {
+        padding: 1% 10%;
+    }
+}
